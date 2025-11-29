@@ -18,17 +18,7 @@ export function HeroSection() {
   return (
     <header id={SECTION_IDS.inicio} className="site-hero">
       <div className="hero-badge">
-        <div className="hero-media">
-          <Image
-            className="img-hero"
-            src="/img/avatar2sinbg.png"
-            alt="Retrato de Aarón"
-            width={360}
-            height={420}
-            priority
-            sizes="(max-width: 768px) 240px, 360px"
-          />
-        </div>
+       
 
         <div className="hero-description">
          
@@ -42,6 +32,17 @@ export function HeroSection() {
               </a>
             ))}
           </div>
+        </div>
+         <div className="hero-media">
+          <Image
+            className="img-hero"
+            src="/img/avatar2sinbg.png"
+            alt="Retrato de Aarón"
+            width={360}
+            height={420}
+            priority
+            sizes="(max-width: 768px) 240px, 360px"
+          />
         </div>
       </div>
     </header>
