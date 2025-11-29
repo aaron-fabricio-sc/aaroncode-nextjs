@@ -15,10 +15,10 @@ export function SiteFooter() {
   return (
     <footer className="site-footer">
       <div>
-      <a className="site-bar__brand" href="#inicio">
-          <span className="brand-tag">&lt;AaronCode/&gt;</span>
-        </a>
-      <div className="hero-icons" aria-label="Redes sociales">
+          <a className="site-bar__brand" href="#inicio">
+            <span className="brand-tag">&lt;AaronCode/&gt;</span>
+          </a>
+          <div className="hero-icons" aria-label="Redes sociales">
             {SOCIAL_LINKS.map(({ href, label, iconClass }) => (
               <a key={label} href={href} target="_blank" rel="noreferrer" aria-label={label}>
                 <i className={iconClass} aria-hidden="true" />

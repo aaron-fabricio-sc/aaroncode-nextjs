@@ -103,6 +103,29 @@ const certificationItems: CertificationItem[] = [
     image: "img/certs/diploma-practico-css.jpg",
     url: "https://platzi.com/p/aaron-fabricio-santa-cruz-vald/curso/1744-practico-css/diploma/detalle/",
   },
+
+   {
+    title: "Preprocesadores CSS",
+    image: "img/certs/diploma-preprocesadores.jpg",
+    url: "",
+  },
+
+   {
+    title: "Sistemas de Diseño",
+    image: "img/certs/diploma-sistemas-diseno.jpg",
+    url: "https://platzi.com/p/aaron-fabricio-santa-cruz-vald/curso/1420-sistemas-diseno/diploma/detalle/",
+  },
+   {
+    title: "Tailwind CSS (2020)",
+    image: "img/certs/diploma-tailwind-css-2020.jpg",
+    url: "https://platzi.com/p/aaron-fabricio-santa-cruz-vald/curso/1822-tailwind-css-2020/diploma/detalle/",
+  },
+
+   {
+    title: "Terminal de Comandos",
+    image: "img/certs/diploma-terminal.jpg",
+    url: "",
+  },
 ];
 
 export function CertificationsSection() {
