@@ -3,12 +3,12 @@ import { SECTION_IDS } from "@/lib/sections";
 
 const SOCIAL_LINKS = [
   {
-    href: "https://github.com/",
+    href: "https://github.com/aaron-fabricio-sc/",
     label: "GitHub",
     iconClass: "fa-brands fa-github",
   },
   {
-    href: "https://www.linkedin.com/",
+    href: "https://www.linkedin.com/in/aaron-fabricio-santa-cruz-valdez/",
     label: "LinkedIn",
     iconClass: "fa-brands fa-linkedin-in",
   },

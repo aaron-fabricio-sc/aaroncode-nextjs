@@ -95,106 +95,6 @@ a {
 
 
 
-/* ========================================
-   COMPONENTE - Site Navigation (Mobile)
-   ======================================== */
-
-.site-nav--mobile {
-  display: none;
-}
-
-/* Media Query - Navigation Mobile */
-@media (max-width: 768px) {
-  .site-nav--desktop {
-    display: none;
-  }
-
-  .site-nav--mobile {
-    display: block;
-    position: fixed;
-    bottom: 1rem;
-    left: 0;
-    right: 0;
-    border-radius: 0;
-    padding: 0.5rem 1rem;
-    background: rgba(9, 12, 26, 0.85);
-    border: 1px solid rgba(255, 255, 255, 0.08);
-    backdrop-filter: blur(22px);
-    box-shadow: var(--shadow-soft);
-    width: 100%;
-    box-sizing: border-box;
-
-  }
-
-  .site-nav__link {
-    font-size: var(--font-size-body-small-sm);
-    padding: 0.75rem 0.9rem;
-  }
-}
-
-/* ========================================
-   COMPONENTE - Site Bar (Mobile Top Bar)
-   ======================================== */
-
-.site-bar {
-  display: none;
-}
-
-.site-bar__brand {
-  font-size: 1rem;
-  font-weight: 600;
-  color: var(--color-text);
-  text-decoration: none;
-}
-
-.site-bar__actions {
-  display: flex;
-  gap: 0.35rem;
-  flex-wrap: wrap;
-  justify-content: flex-end;
-}
-
-/* Media Query - Site Bar Mobile */
-@media (max-width: 768px) {
-  .site-bar {
-    display: flex;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    width: 100%;
-    padding: 0.65rem 1rem;
-    border-radius: 0;
-    background: rgba(9, 12, 26, 0.85);
-    border: 1px solid rgba(255, 255, 255, 0.08);
-    backdrop-filter: blur(22px);
-    align-items: center;
-    justify-content: space-between;
-    gap: 1rem;
-    box-shadow: var(--shadow-soft);
-    box-sizing: border-box;
-    z-index: 300;
-  }
-  .site-bar .site-bar__actions .icon-button {
-        
-        width: 28px;
-        height: 28px;
-       
-      }
-    .site-bar .site-bar__actions .icon-button i {
-      font-size: 0.9rem;
-  
-    }
-    
-    
-          
-}
-
-@media (min-width: 769px) {
-  .site-bar {
-    display: none;
-  }
-}
 
 /* ========================================
    COMPONENTE - Brand Tag
@@ -698,4 +598,119 @@ a {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
   
+}
+
+/* ========================================
+   CERTIFICATIONS GRID
+   ======================================== */
+
+.certifications-list {
+  display: grid;
+  grid-template-columns: 1fr;
+ 
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+/* ========================================
+   CERTIFICATION CARD
+   ======================================== */
+
+.certification-card {
+  border-radius: calc(var(--radius-lg) - 10px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: linear-gradient(135deg, rgba(14, 23, 47, 0.9), rgba(9, 12, 26, 0.9));
+  overflow: hidden;
+  position: relative;
+}
+
+.certification-card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  padding: 1px;
+  background: linear-gradient(120deg, rgba(247, 105, 39, 0.45), rgba(44, 201, 255, 0.45));
+  -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  pointer-events: none;
+}
+
+/* ========================================
+   IMAGE WRAPPER — ahora mantiene proporción real
+   ======================================== */
+
+.certification-image-wrapper {
+  display: block;
+  position: relative;
+  width: 100%;
+
+  /* 🔥 Nueva solución → No se deforman */
+  aspect-ratio: 4 / 3;
+
+  overflow: hidden;
+  border-radius: inherit;
+}
+
+.certification-image {
+  width: 100%;
+  height: 100%;
+
+  /* 🔥 No deforma certificados */
+  object-fit: contain;
+
+  background: #000;
+  /* relleno elegante si el certificado no llena */
+  padding: 6px;
+  /* pequeño margen para estética */
+  transition: transform 0.45s ease, filter 0.45s ease;
+}
+
+.certification-image-wrapper:hover .certification-image,
+.certification-image-wrapper:focus .certification-image {
+  transform: scale(1.03);
+  filter: brightness(0.9);
+}
+
+/* ========================================
+   OVERLAY
+   ======================================== */
+
+.certification-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.55);
+  opacity: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: opacity 0.3s ease;
+  color: #fff;
+  font-weight: 600;
+  font-size: 0.9rem;
+  text-align: center;
+  pointer-events: none;
+}
+
+.certification-image-wrapper:hover .certification-overlay,
+.certification-image-wrapper:focus .certification-overlay {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+/* ========================================
+   DESKTOP → 4 columnas
+   ======================================== */
+
+@media (min-width: 1024px) {
+  .certifications-list {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.25rem;
+  }
+
+  .certification-image-wrapper {
+    aspect-ratio: 4 / 3;
+    /* mantiene proporción en desktop también */
+  }
 }

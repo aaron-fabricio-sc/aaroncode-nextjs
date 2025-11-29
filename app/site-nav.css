@@ -54,21 +54,14 @@
     gap: 0.35rem;
     padding: 0.85rem 1rem;
     border-radius: var(--radius-pill);
-    font-size: var(--font-size-nav);
+    font-size:14px;
     color: var(--color-accent);
     border: 1px solid transparent;
     transition: border-color 0.25s ease, background 0.25s ease, transform 0.2s ease, color 0.25s ease;
     width: 100%;
 }
 
-.site-nav__link:hover,
-.site-nav__link:focus-visible {
-    outline: none;
-    border-color: rgba(44, 201, 255, 0.7);
-    background: rgba(44, 201, 255, 0.08);
-    transform: translateY(-1px);
-    color: var(--color-accent);
-}
+
 
 .site-nav__actions {
     display: flex;
@@ -81,5 +74,110 @@
 @media (min-width: 769px) {
     .site-nav--desktop {
         display: grid;
+    }
+ 
+}
+
+
+/* ========================================
+   COMPONENTE - Site Navigation (Mobile)
+   ======================================== */
+
+.site-nav--mobile {
+    display: none;
+}
+
+/* Media Query - Navigation Mobile */
+@media (max-width: 768px) {
+    .site-nav--desktop {
+        display: none;
+    }
+
+    .site-nav--mobile {
+        display: block;
+        position: fixed;
+        bottom: 1rem;
+        left: 0;
+        right: 0;
+        border-radius: 0;
+        padding: 0.5rem 1rem;
+        background: rgba(9, 12, 26, 0.85);
+        border: 1px solid rgba(255, 255, 255, 0.08);
+        backdrop-filter: blur(22px);
+        box-shadow: var(--shadow-soft);
+        width: 100%;
+        box-sizing: border-box;
+
+    }
+
+    .site-nav__link {
+        font-size: 10px;
+        padding: 0.75rem 0.9rem;
+    }
+}
+
+/* ========================================
+   COMPONENTE - Site Bar (Mobile Top Bar)
+   ======================================== */
+
+.site-bar {
+    display: none;
+}
+
+.site-bar__brand {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--color-text);
+    text-decoration: none;
+}
+
+.site-bar__actions {
+    display: flex;
+    gap: 0.35rem;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+/* Media Query - Site Bar Mobile */
+@media (max-width: 768px) {
+    .site-bar {
+        display: flex;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        width: 100%;
+        padding: 0.65rem 1rem;
+        border-radius: 0;
+        background: rgba(9, 12, 26, 0.85);
+        border: 1px solid rgba(255, 255, 255, 0.08);
+        backdrop-filter: blur(22px);
+        align-items: center;
+        justify-content: space-between;
+        gap: 1rem;
+        box-shadow: var(--shadow-soft);
+        box-sizing: border-box;
+        z-index: 300;
+    }
+
+    .site-bar .site-bar__actions .icon-button {
+
+        width: 28px;
+        height: 28px;
+
+    }
+
+    .site-bar .site-bar__actions .icon-button i {
+        font-size: 0.9rem;
+
+    }
+
+
+
+}
+
+@media (min-width: 769px) {
+    .site-bar {
+        display: none;
     }
 }
