@@ -432,6 +432,11 @@ a {
   border-top: 1px solid var(--color-muted);
   border-radius: var(--radius-lg);
 }
+.site-footer .site-footer__contact{
+  font-weight: 600;
+  color: var(--color-highlight);
+}
+
 
 
 
