@@ -51,7 +51,7 @@ export function SiteFooter() {
       </div>
 
       <p>
-        © {new Date().getFullYear()} Aaron Fabricio Santa Cruz (FullStack
+        {new Date().getFullYear()} Aaron Fabricio Santa Cruz (FullStack
         Developer). Construido con Next.js.
       </p>
     </footer>
