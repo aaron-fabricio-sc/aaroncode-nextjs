@@ -12,7 +12,7 @@ const title =
   "Aaron Fabricio Santa Cruz | Full Stack Developer & Founder EntityX";
 const description =
   "Portafolio de Aaron Fabricio Santa Cruz, Software Engineer, Full Stack Developer y Founder de EntityX, especializado en plataformas SaaS, ERP, Angular, NestJS, Next.js y soluciones digitales para negocios.";
-const previewImage = "/img/projects/entityx-cover.jpeg";
+const previewImage = "/img/Add_background_to_image_202607261128.jpeg";
 
 export const metadata: Metadata = {
   title,
@@ -73,9 +73,9 @@ export const metadata: Metadata = {
     images: [
       {
         url: previewImage,
-        width: 1376,
-        height: 768,
-        alt: "EntityX, plataforma SaaS y ERP desarrollada por Aaron Fabricio Santa Cruz",
+        width: 1200,
+        height: 896,
+        alt: "Preview del portafolio de Aaron Fabricio Santa Cruz, Full Stack Developer y Founder de EntityX",
       },
     ],
   },
