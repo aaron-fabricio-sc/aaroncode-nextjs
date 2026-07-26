@@ -25,7 +25,7 @@ export function HeroSection() {
       <div className="hero-badge">
         <div className="hero-description">
           <h1 className="hero-title neon-text">{t.hero.title}</h1>
-          <h2 className="hero-subtitle">{t.hero.subtitle}</h2>
+          <p className="hero-subtitle">{t.hero.subtitle}</p>
           <p className="hero-lead">{t.hero.lead}</p>
 
           <div className="hero-ctas" aria-label={t.actions.mainActions}>
@@ -75,7 +75,7 @@ export function HeroSection() {
             width={360}
             height={420}
             priority
-            sizes="(max-width: 768px) 240px, 360px"
+            sizes="(max-width: 768px) 180px, 360px"
           />
         </div>
       </div>

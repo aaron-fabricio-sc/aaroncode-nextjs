@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { SectionBlock } from "./section-block";
 import { SECTION_IDS } from "@/lib/sections";
 import { useLanguage } from "../language-provider";
@@ -139,24 +140,38 @@ export function CertificationsSection() {
       <div className="certifications-list">
         {certificationItems.map((cert, index) => {
           const title = t.certifications[index] ?? cert.title;
-
-          return (
-          <article key={cert.title} className="certification-card">
-            <a
-              href={cert.url}
-              target="_blank"
-              rel="noreferrer"
-              className="certification-image-wrapper"
-            >
-              <img
+          const certificateContent = (
+            <>
+              <Image
                 className="certification-image"
                 src={cert.image}
-                alt={title}
+                alt={`Certificado de ${title} obtenido por Aaron Fabricio Santa Cruz`}
+                width={1650}
+                height={1275}
+                sizes="(max-width: 768px) 90vw, (max-width: 1200px) 42vw, 360px"
               />
               <div className="certification-overlay">
                 <span>{t.actions.viewCertificate}</span>
               </div>
-            </a>
+            </>
+          );
+
+          return (
+          <article key={cert.title} className="certification-card">
+            {cert.url ? (
+              <a
+                href={cert.url}
+                target="_blank"
+                rel="noreferrer"
+                className="certification-image-wrapper"
+              >
+                {certificateContent}
+              </a>
+            ) : (
+              <div className="certification-image-wrapper">
+                {certificateContent}
+              </div>
+            )}
           </article>
           );
         })}

@@ -148,6 +148,12 @@ export function StackSection() {
                       width={32}
                       height={32}
                       loading="lazy"
+                      style={{
+                        width: "auto",
+                        height: "auto",
+                        maxWidth: "45px",
+                        maxHeight: "45px",
+                      }}
                     />
                   </div>
                   <div className="stack-item__body">

@@ -25,6 +25,6 @@
 /* Media Query - Layout Mobile */
 @media (max-width: 768px) {
     .page-shell {
-        padding-bottom: 6rem;
+        padding-bottom: calc(7rem + env(safe-area-inset-bottom));
     }
 }

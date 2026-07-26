@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import { LanguageProvider } from "@/components/language-provider";
+import { SITE_URL } from "@/lib/site";
 
 import "./globals.css";
 import "./page-structure.css";
@@ -18,7 +19,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Portafolio | Aarón Code Next",
+  metadataBase: new URL(SITE_URL),
+  title: "Portafolio | Aaron Code Next",
   description:
     "Portafolio de una sola página con secciones claras, construido en Next.js.",
   verification: {

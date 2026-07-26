@@ -63,7 +63,7 @@ export const translations = {
       downloadCv: "Descargar CV",
       contactMe: "Contáctame",
       viewProjects: "Ver Proyectos",
-      portraitAlt: "Retrato de Aarón",
+      portraitAlt: "Retrato de Aaron",
     },
     sections: {
       experience: "Experiencia",
@@ -210,7 +210,7 @@ Permite a los negocios digitalizar su administración, evitar fugas de dinero y 
         image: "/img/projects/administracion.png",
         url: "https://remcommunityadmin-x.wdi.net/",
         description:
-          "Es un sistema completo donde se gestiona la toda la información de todos los usuario, miembros, agrupaciones y demás datos relevantes de la comunidad azucarera de Belice. También cuenta con la parte de configuración para otras aplicaciones complementarias que gestionan las actividades de los granjeros los conductores que llevan la caña de azúcar como ser ubicaciones de fabricas subida de archivos GEOJSON etc. Y también cuenta con su apartado de notificaciones que llega a los usuarios por push notifications a la app mobile.",
+          "Sistema administrativo para centralizar la informacion de usuarios, miembros, agrupaciones y datos operativos de la comunidad azucarera de Belice. Incluye modulos de configuracion para aplicaciones complementarias, gestion de actividades de granjeros y conductores, ubicaciones de fabricas, carga de archivos GEOJSON y envio de notificaciones push hacia la aplicacion movil.",
         tech: ["Angular", "Sass", "Google Maps", "JavaScript"],
         status: "Privado",
         type: "Frontend",
@@ -221,7 +221,7 @@ Permite a los negocios digitalizar su administración, evitar fugas de dinero y 
         image: "/img/projects/pwacom.png",
         url: "https://play.google.com/store/apps/details?id=com.wdtwalleton.rem",
         description:
-          "Esta es una aplicación web embebida dentro de la aplicación móvil REMID, disponible en Google Play Store y App Store. La app móvil utiliza un WebView para cargar esta PWA directamente desde su sección de Iniciativas, permitiendo que los usuarios accedan a la plataforma sin necesidad de instalar nada adicional. La aplicación está diseñada para gestionar la información y las actividades de los trabajadores de la comunidad azucarera de Belice, ofreciendo una experiencia optimizada tanto dentro del navegador como dentro de REMID. Gracias a su integración como PWA, mantiene una interfaz rápida, moderna y consistente incluso cuando se ejecuta dentro de la app móvil.",
+          "PWA integrada dentro de la aplicacion movil REMID mediante WebView, disponible desde la seccion de Iniciativas. Permite gestionar informacion y actividades de trabajadores de la comunidad azucarera de Belice, ofreciendo una experiencia rapida y consistente tanto en navegador como dentro de la app movil, sin requerir instalaciones adicionales.",
         tech: ["Angular", "Sass", "Google Maps", "JavaScript", "PWA"],
         status: "Privado",
         type: "Frontend",
@@ -231,7 +231,7 @@ Permite a los negocios digitalizar su administración, evitar fugas de dinero y 
         image: "/img/projects/kyc.jpeg",
         url: "https://play.google.com/store/apps/details?id=com.wdtwalleton.rem",
         description:
-          "Colaboré en el desarrollo de una aplicación web KYC (Know Your Customer) que puede ser embebida dentro de otras aplicaciones también puede ser usada dentro de la Aplicación REMID. Esta app permite a los usuarios verificar su identidad de manera digital, capturando información personal y documentos oficiales de forma segura y confiable. La integración como PWA embebida asegura que la app funcione de manera fluida dentro de la plataforma móvil, ofreciendo experiencia consistente y rápida sin requerir instalaciones adicionales, y cumpliendo con los estándares de seguridad y usabilidad para procesos de verificación de identidad.",
+          "Colabore en el desarrollo de una aplicacion web KYC embebible para verificacion digital de identidad dentro de REMID y otras plataformas. La solucion permite capturar informacion personal y documentos oficiales de forma segura, con una experiencia PWA fluida en entornos moviles y procesos orientados a seguridad, usabilidad y confiabilidad.",
         tech: ["Angular", "Sass", "JavaScript", "PWA"],
         status: "Privado",
         type: "Frontend",
@@ -454,7 +454,7 @@ It helps businesses digitize administration, prevent revenue leakage, and delive
         image: "/img/projects/administracion.png",
         url: "https://remcommunityadmin-x.wdi.net/",
         description:
-          "A complete system for managing user, member, group, and other relevant information for the Belize sugar community. It also includes configuration modules for complementary applications that manage farmers' and drivers' activities, such as factory locations, GEOJSON file uploads, and related operational data. It also includes a notification module that sends push notifications to users through the mobile app.",
+          "Administrative system for centralizing user, member, group, and operational data for the Belize sugar cane community. It includes configuration modules for complementary applications, farmer and driver activity management, factory locations, GEOJSON file uploads, and push notifications delivered through the mobile app.",
         tech: ["Angular", "Sass", "Google Maps", "JavaScript"],
         status: "Private",
         type: "Frontend",
@@ -465,7 +465,7 @@ It helps businesses digitize administration, prevent revenue leakage, and delive
         image: "/img/projects/pwacom.png",
         url: "https://play.google.com/store/apps/details?id=com.wdtwalleton.rem",
         description:
-          "This is a web application embedded inside the REMID mobile app, available on Google Play Store and App Store. The mobile app uses a WebView to load this PWA directly from its Initiatives section, allowing users to access the platform without installing anything extra. The application is designed to manage information and activities for workers in the Belize sugar community, delivering an optimized experience both in the browser and inside REMID. Thanks to its PWA integration, it keeps a fast, modern, and consistent interface even when running inside the mobile app.",
+          "PWA embedded inside the REMID mobile app through WebView and available from the Initiatives section. It manages information and activities for Belize sugar community workers, delivering a fast and consistent experience in both browser and mobile app contexts without requiring additional installation.",
         tech: ["Angular", "Sass", "Google Maps", "JavaScript", "PWA"],
         status: "Private",
         type: "Frontend",
@@ -475,7 +475,7 @@ It helps businesses digitize administration, prevent revenue leakage, and delive
         image: "/img/projects/kyc.jpeg",
         url: "https://play.google.com/store/apps/details?id=com.wdtwalleton.rem",
         description:
-          "Collaborated on the development of a KYC (Know Your Customer) web application that can be embedded inside other applications and can also be used inside REMID. This app lets users verify their identity digitally by securely capturing personal information and official documents. The embedded PWA integration ensures smooth operation inside the mobile platform, offering a consistent and fast experience without additional installations while meeting security and usability standards for identity verification processes.",
+          "Collaborated on an embeddable KYC web application for digital identity verification inside REMID and other platforms. The solution securely captures personal information and official documents, with a smooth PWA experience for mobile environments and workflows focused on security, usability, and reliability.",
         tech: ["Angular", "Sass", "JavaScript", "PWA"],
         status: "Private",
         type: "Frontend",
