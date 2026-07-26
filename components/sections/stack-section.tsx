@@ -108,7 +108,7 @@ const stackCategories: StackCategory[] = [
         icon: "/img/imgoptimizadas/tools/git.png"
       }, {
         label: "GitHub",
-        icon: "/img/imgoptimizadas/tools/Octocat.jpg"
+        icon: "/img/imgoptimizadas/tools/octocat.jpg"
       }, {
         label: "Webpack",
         icon: "/img/imgoptimizadas/tools/webpack.png"

@@ -30,9 +30,8 @@ export function HeroSection() {
 
           <div className="hero-ctas" aria-label={t.actions.mainActions}>
             <a
-              href="/cv.pdf"
-              target="_blank"
-              rel="noopener noreferrer"
+              href="/cv/profile-es.pdf"
+              download="aaron-fabricio-santa-cruz-cv.pdf"
               className="hero-btn hero-btn--primary"
             >
               <i className="fa-solid fa-file-arrow-down" aria-hidden="true" />
@@ -71,7 +70,7 @@ export function HeroSection() {
         <div className="hero-media">
           <Image
             className="img-hero"
-            src="/img/imgoptimizadas/Generate_comic_image_youthful_beard_202607252259-removebg-preview.png"
+            src="/img/imgoptimizadas/aaron-avatar-comic.png"
             alt={t.hero.portraitAlt}
             width={360}
             height={420}

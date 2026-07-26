@@ -179,7 +179,7 @@ export const translations = {
     projects: [
       {
         title: "EntityX - Sistema ERP & Plataforma SaaS de Gestión",
-        image: "img/projects/Recreate_image_resolution_provided_202607252324.jpeg",
+        image: "/img/projects/entityx-cover.jpeg",
         url: "https://entityx.tech/",
         description: `EntityX es una plataforma en la nube diseñada para automatizar la gestión operativa y financiera de centros deportivos, academias y negocios de membresías.
 
@@ -207,7 +207,7 @@ Permite a los negocios digitalizar su administración, evitar fugas de dinero y 
       {
         title:
           "Aplicación Administrativa de la comunidad de caña de azúcar de Belice",
-        image: "img/projects/administracion.png",
+        image: "/img/projects/administracion.png",
         url: "https://remcommunityadmin-x.wdi.net/",
         description:
           "Es un sistema completo donde se gestiona la toda la información de todos los usuario, miembros, agrupaciones y demás datos relevantes de la comunidad azucarera de Belice. También cuenta con la parte de configuración para otras aplicaciones complementarias que gestionan las actividades de los granjeros los conductores que llevan la caña de azúcar como ser ubicaciones de fabricas subida de archivos GEOJSON etc. Y también cuenta con su apartado de notificaciones que llega a los usuarios por push notifications a la app mobile.",
@@ -218,7 +218,7 @@ Permite a los negocios digitalizar su administración, evitar fugas de dinero y 
       {
         title:
           "PWA Para gestionar información y actividades de los trabajadores de la comunidad azucarera de Belice",
-        image: "img/projects/pwacom.png",
+        image: "/img/projects/pwacom.png",
         url: "https://play.google.com/store/apps/details?id=com.wdtwalleton.rem",
         description:
           "Esta es una aplicación web embebida dentro de la aplicación móvil REMID, disponible en Google Play Store y App Store. La app móvil utiliza un WebView para cargar esta PWA directamente desde su sección de Iniciativas, permitiendo que los usuarios accedan a la plataforma sin necesidad de instalar nada adicional. La aplicación está diseñada para gestionar la información y las actividades de los trabajadores de la comunidad azucarera de Belice, ofreciendo una experiencia optimizada tanto dentro del navegador como dentro de REMID. Gracias a su integración como PWA, mantiene una interfaz rápida, moderna y consistente incluso cuando se ejecuta dentro de la app móvil.",
@@ -228,7 +228,7 @@ Permite a los negocios digitalizar su administración, evitar fugas de dinero y 
       },
       {
         title: "Colaboración en aplicación KYC embebida en WebView",
-        image: "img/projects/kyc.jpeg",
+        image: "/img/projects/kyc.jpeg",
         url: "https://play.google.com/store/apps/details?id=com.wdtwalleton.rem",
         description:
           "Colaboré en el desarrollo de una aplicación web KYC (Know Your Customer) que puede ser embebida dentro de otras aplicaciones también puede ser usada dentro de la Aplicación REMID. Esta app permite a los usuarios verificar su identidad de manera digital, capturando información personal y documentos oficiales de forma segura y confiable. La integración como PWA embebida asegura que la app funcione de manera fluida dentro de la plataforma móvil, ofreciendo experiencia consistente y rápida sin requerir instalaciones adicionales, y cumpliendo con los estándares de seguridad y usabilidad para procesos de verificación de identidad.",
@@ -239,7 +239,7 @@ Permite a los negocios digitalizar su administración, evitar fugas de dinero y 
       {
         title:
           "Integraciones de servicios backend en la aplicación REMID usando Yii2",
-        image: "img/projects/remid.jpeg",
+        image: "/img/projects/remid.jpeg",
         url: "https://play.google.com/store/apps/details?id=com.wdtwalleton.rem",
         description: `Colaboré en el desarrollo del backend de REMID y REMBIZ utilizando Yii2, implementando servicios robustos para:
 - Integración con la aplicación KYC embebida, permitiendo la verificación de identidad de los usuarios.
@@ -424,7 +424,7 @@ Estas integraciones permitieron un flujo eficiente de datos entre aplicaciones w
     projects: [
       {
         title: "EntityX - ERP System & Management SaaS Platform",
-        image: "img/projects/Recreate_image_resolution_provided_202607252324.jpeg",
+        image: "/img/projects/entityx-cover.jpeg",
         url: "https://entityx.tech/",
         description: `EntityX is a cloud platform designed to automate operational and financial management for sports centers, academies, and membership-based businesses.
 
@@ -451,7 +451,7 @@ It helps businesses digitize administration, prevent revenue leakage, and delive
       },
       {
         title: "Administrative application for the Belize sugar cane community",
-        image: "img/projects/administracion.png",
+        image: "/img/projects/administracion.png",
         url: "https://remcommunityadmin-x.wdi.net/",
         description:
           "A complete system for managing user, member, group, and other relevant information for the Belize sugar community. It also includes configuration modules for complementary applications that manage farmers' and drivers' activities, such as factory locations, GEOJSON file uploads, and related operational data. It also includes a notification module that sends push notifications to users through the mobile app.",
@@ -462,7 +462,7 @@ It helps businesses digitize administration, prevent revenue leakage, and delive
       {
         title:
           "PWA for managing information and activities for Belize sugar community workers",
-        image: "img/projects/pwacom.png",
+        image: "/img/projects/pwacom.png",
         url: "https://play.google.com/store/apps/details?id=com.wdtwalleton.rem",
         description:
           "This is a web application embedded inside the REMID mobile app, available on Google Play Store and App Store. The mobile app uses a WebView to load this PWA directly from its Initiatives section, allowing users to access the platform without installing anything extra. The application is designed to manage information and activities for workers in the Belize sugar community, delivering an optimized experience both in the browser and inside REMID. Thanks to its PWA integration, it keeps a fast, modern, and consistent interface even when running inside the mobile app.",
@@ -472,7 +472,7 @@ It helps businesses digitize administration, prevent revenue leakage, and delive
       },
       {
         title: "Collaboration on a KYC application embedded in WebView",
-        image: "img/projects/kyc.jpeg",
+        image: "/img/projects/kyc.jpeg",
         url: "https://play.google.com/store/apps/details?id=com.wdtwalleton.rem",
         description:
           "Collaborated on the development of a KYC (Know Your Customer) web application that can be embedded inside other applications and can also be used inside REMID. This app lets users verify their identity digitally by securely capturing personal information and official documents. The embedded PWA integration ensures smooth operation inside the mobile platform, offering a consistent and fast experience without additional installations while meeting security and usability standards for identity verification processes.",
@@ -482,7 +482,7 @@ It helps businesses digitize administration, prevent revenue leakage, and delive
       },
       {
         title: "Backend service integrations in the REMID application using Yii2",
-        image: "img/projects/remid.jpeg",
+        image: "/img/projects/remid.jpeg",
         url: "https://play.google.com/store/apps/details?id=com.wdtwalleton.rem",
         description: `Collaborated on REMID and REMBIZ backend development using Yii2, implementing robust services for:
 - Integration with the embedded KYC application, enabling user identity verification.
