@@ -17,7 +17,7 @@
 
 .site-hero .hero-badge {
     display: grid;
-    grid-template-columns: minmax(220px, 280px) 1fr;
+    grid-template-columns: minmax(0, 1fr) clamp(200px, 25vw, 280px);
     gap: clamp(1.5rem, 4vw, 3rem);
     align-items: center;
 }
@@ -32,14 +32,14 @@
 }
 
 .img-hero {
-    max-width: 100%;
+    width: 100%;
+    max-width: 360px;
     height: auto;
     border-radius: calc(var(--radius-lg) - 12px);
-    object-fit: cover;
+    object-fit: contain;
     filter:
             drop-shadow(0 0 6px rgba(255, 255, 255, 0.7)) drop-shadow(0 0 12px rgba(255, 255, 255, 0.4));
     animation: heroFloat 3s ease-in-out infinite;
-   
 }
 
 .hero-description {
@@ -78,11 +78,77 @@
 }
 
 .hero-lead {
-    margin: 0;
+    margin: 0 0 1.5rem;
     font-size: var(--font-size-body-small);
-    color: var(--color-muted);
-    max-width: 38ch;
+    color: #fff;
+    max-width: 600px;
     line-height: 1.6;
+}
+
+/* Contenedor de Botones CTA */
+.hero-ctas {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.85rem;
+    margin-bottom: 1.75rem;
+    align-items: center;
+}
+
+.hero-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.55rem;
+    padding: 0.7rem 1.4rem;
+    border-radius: var(--radius-pill);
+    font-size: 0.95rem;
+    font-weight: 600;
+    text-decoration: none;
+    transition: transform 0.2s ease, box-shadow 0.2s ease, filter 0.2s ease;
+    cursor: pointer;
+    border: 1px solid transparent;
+}
+
+.hero-btn:hover,
+.hero-btn:focus-visible {
+    outline: none;
+    transform: translateY(-2px);
+}
+
+/* Botón Principal - Naranja Vibrante */
+.hero-btn--primary {
+    background: linear-gradient(135deg, var(--color-highlight), #ff8f50);
+    color: #fff;
+    box-shadow: 0 4px 15px rgba(247, 105, 39, 0.35);
+}
+
+.hero-btn--primary:hover {
+    box-shadow: 0 6px 20px rgba(247, 105, 39, 0.55);
+    filter: brightness(1.08);
+}
+
+/* Botón Secundario - Cian Brillante */
+.hero-btn--secondary {
+    background: linear-gradient(135deg, var(--color-accent), #007af5);
+    color: #090c1a;
+    font-weight: 700;
+    box-shadow: 0 4px 15px rgba(44, 201, 255, 0.35);
+}
+
+.hero-btn--secondary:hover {
+    box-shadow: 0 6px 20px rgba(44, 201, 255, 0.55);
+    filter: brightness(1.08);
+}
+
+/* Botón Terciario - Púrpura Neón */
+.hero-btn--tertiary {
+    background: linear-gradient(135deg, #8b5cf6, #6366f1);
+    color: #fff;
+    box-shadow: 0 4px 15px rgba(139, 92, 246, 0.35);
+}
+
+.hero-btn--tertiary:hover {
+    box-shadow: 0 6px 20px rgba(139, 92, 246, 0.55);
+    filter: brightness(1.08);
 }
 
 .hero-icons {
@@ -132,5 +198,30 @@
 
     .hero-icons {
         justify-content: center;
+    }
+
+    .hero-ctas {
+        justify-content: center;
+        gap: 0.65rem;
+    }
+
+    .hero-btn {
+        padding: 0.6rem 1.15rem;
+        font-size: 0.88rem;
+    }
+
+    .hero-media {
+        width: 100%;
+        max-width: 220px;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .img-hero {
+        width: 100%;
+        max-width: clamp(140px, 45vw, 180px);
+        height: auto;
+        object-fit: contain;
+        margin: 0 auto;
     }
 }

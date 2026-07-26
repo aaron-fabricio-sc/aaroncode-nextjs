@@ -1,5 +1,8 @@
+"use client";
+
 import Image from "next/image";
 import { SECTION_IDS } from "@/lib/sections";
+import { useLanguage } from "../language-provider";
 
 const SOCIAL_LINKS = [
   {
@@ -15,29 +18,61 @@ const SOCIAL_LINKS = [
 ] as const;
 
 export function HeroSection() {
+  const { t } = useLanguage();
+
   return (
     <header id={SECTION_IDS.inicio} className="site-hero">
       <div className="hero-badge">
-       
-
         <div className="hero-description">
-         
-          <h1 className="hero-title neon-text">Aaron Fabricio Santa Cruz</h1>
-          <h2 className="hero-subtitle">Ingeniero en Sistemas · Desarrollador Fullstack</h2>
+          <h1 className="hero-title neon-text">{t.hero.title}</h1>
+          <h2 className="hero-subtitle">{t.hero.subtitle}</h2>
+          <p className="hero-lead">{t.hero.lead}</p>
 
-          <div className="hero-icons" aria-label="Redes sociales">
+          <div className="hero-ctas" aria-label={t.actions.mainActions}>
+            <a
+              href="/cv.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hero-btn hero-btn--primary"
+            >
+              <i className="fa-solid fa-file-arrow-down" aria-hidden="true" />
+              <span>{t.hero.downloadCv}</span>
+            </a>
+            <a
+              href="mailto:aaronfabricio00@gmail.com"
+              className="hero-btn hero-btn--secondary"
+            >
+              <i className="fa-solid fa-envelope" aria-hidden="true" />
+              <span>{t.hero.contactMe}</span>
+            </a>
+            <a
+              href={`#${SECTION_IDS.proyectos}`}
+              className="hero-btn hero-btn--tertiary"
+            >
+              <i className="fa-solid fa-folder-open" aria-hidden="true" />
+              <span>{t.hero.viewProjects}</span>
+            </a>
+          </div>
+
+          <div className="hero-icons" aria-label={t.actions.socialLinks}>
             {SOCIAL_LINKS.map(({ href, label, iconClass }) => (
-              <a key={label} href={href} target="_blank" rel="noreferrer" aria-label={label}>
+              <a
+                key={label}
+                href={href}
+                target="_blank"
+                rel="noreferrer"
+                aria-label={label}
+              >
                 <i className={iconClass} aria-hidden="true" />
               </a>
             ))}
           </div>
         </div>
-         <div className="hero-media">
+        <div className="hero-media">
           <Image
             className="img-hero"
-            src="/img/avatar2sinbg.png"
-            alt="Retrato de Aarón"
+            src="/img/imgoptimizadas/Generate_comic_image_youthful_beard_202607252259-removebg-preview.png"
+            alt={t.hero.portraitAlt}
             width={360}
             height={420}
             priority

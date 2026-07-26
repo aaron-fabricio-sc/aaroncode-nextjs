@@ -1,5 +1,8 @@
+"use client";
+
 import { SectionBlock } from "./section-block";
 import { SECTION_IDS } from "@/lib/sections";
+import { useLanguage } from "../language-provider";
 
 type CertificationItem = {
   title: string;
@@ -129,27 +132,34 @@ const certificationItems: CertificationItem[] = [
 ];
 
 export function CertificationsSection() {
+  const { t } = useLanguage();
+
   return (
-    <SectionBlock id={SECTION_IDS.certifications} title="Certificaciones">
+    <SectionBlock id={SECTION_IDS.certifications} title={t.sections.certifications}>
       <div className="certifications-list">
-        {certificationItems.map((cert) => (
+        {certificationItems.map((cert, index) => {
+          const title = t.certifications[index] ?? cert.title;
+
+          return (
           <article key={cert.title} className="certification-card">
             <a
               href={cert.url}
               target="_blank"
+              rel="noreferrer"
               className="certification-image-wrapper"
             >
               <img
                 className="certification-image"
                 src={cert.image}
-                alt={cert.title}
+                alt={title}
               />
               <div className="certification-overlay">
-                <span>Ver Certificado</span>
+                <span>{t.actions.viewCertificate}</span>
               </div>
             </a>
           </article>
-        ))}
+          );
+        })}
       </div>
     </SectionBlock>
   );

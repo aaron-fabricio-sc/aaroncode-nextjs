@@ -1,5 +1,8 @@
+"use client";
+
 import Image from "next/image";
 import { SECTION_IDS } from "@/lib/sections";
+import { useLanguage } from "../language-provider";
 import { SectionBlock } from "./section-block";
 
 type StackItem = {
@@ -125,12 +128,16 @@ const stackCategories: StackCategory[] = [
 ];
 
 export function StackSection() {
+  const { t } = useLanguage();
+
   return (
-    <SectionBlock id={SECTION_IDS.stack} title="Stack de herramientas">
+    <SectionBlock id={SECTION_IDS.stack} title={t.sections.stack}>
       <div className="stack-grid">
-        {stackCategories.map((category) => (
+        {stackCategories.map((category, categoryIndex) => (
           <div key={category.title} className="stack-category">
-            <h3 className="stack-category__title">{category.title}</h3>
+            <h3 className="stack-category__title">
+              {t.stack.categories[categoryIndex]}
+            </h3>
             <div className="stack-items">
               {category.items.map((item) => (
                 <article key={item.label} className="stack-item">

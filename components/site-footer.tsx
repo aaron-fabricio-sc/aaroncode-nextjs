@@ -1,5 +1,7 @@
 "use client"; // 🔥 Esto hace que el componente sea interactivo
 
+import { useLanguage } from "./language-provider";
+
 const SOCIAL_LINKS = [
   {
     href: "https://github.com/aaron-fabricio-sc/",
@@ -14,6 +16,8 @@ const SOCIAL_LINKS = [
 ] as const;
 
 export function SiteFooter() {
+  const { t } = useLanguage();
+
   const handleEmailClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
     e.preventDefault();
     const user = "aaronfabricio";
@@ -29,7 +33,7 @@ export function SiteFooter() {
           <span className="brand-tag">&lt;AaronCode/&gt;</span>
         </a>
 
-        <div className="hero-icons" aria-label="Redes sociales">
+        <div className="hero-icons" aria-label={t.actions.socialLinks}>
           {SOCIAL_LINKS.map(({ href, label, iconClass }) => (
             <a
               key={label}
@@ -45,14 +49,14 @@ export function SiteFooter() {
 
         <p className="site-footer__contact">
           <a href="#" onClick={handleEmailClick}>
-            Contactar por correo
+            {t.actions.contactByEmail}
           </a>
         </p>
       </div>
 
       <p>
         {new Date().getFullYear()} Aaron Fabricio Santa Cruz (FullStack
-        Developer). Construido con Next.js.
+        Developer). {t.actions.builtWith}
       </p>
     </footer>
   );
