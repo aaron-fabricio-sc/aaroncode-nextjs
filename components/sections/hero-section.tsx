@@ -30,8 +30,8 @@ export function HeroSection() {
 
           <div className="hero-ctas" aria-label={t.actions.mainActions}>
             <a
-              href="/cv/profile-es.pdf"
-              download="aaron-fabricio-santa-cruz-cv.pdf"
+              href="/cv/AaronFabricioSantaCruz.pdf"
+              download="AaronFabricioSantaCruz.pdf"
               className="hero-btn hero-btn--primary"
             >
               <i className="fa-solid fa-file-arrow-down" aria-hidden="true" />

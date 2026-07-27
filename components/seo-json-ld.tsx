@@ -38,6 +38,7 @@ const structuredData = {
         "NestJS",
         "Node.js",
         "Yii2",
+        "Laravel",
         "PHP",
         "JavaScript",
         "TypeScript",

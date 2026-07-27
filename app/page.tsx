@@ -52,7 +52,7 @@ export const metadata: Metadata = {
     "TypeScript",
     "MySQL",
     "Google Maps API",
-    "Flutter",
+    "Laravel",
     "PWA",
     "REST API",
     "cloud software",

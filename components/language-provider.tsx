@@ -74,31 +74,37 @@ export const translations = {
     },
     about: {
       paragraphs: [
-        "Founder y CEO en EntityX | Software Engineer, Full Stack Developer.",
-        "Fundador y desarrollador principal de EntityX, el sistema ERP y plataforma SaaS que optimiza la gestión operativa y financiera de negocios basados en membresías y suscripciones (gimnasios, academias, centros deportivos y negocios de servicios).",
-        "Digitalizamos la operación integral del negocio: desde el control de ingresos y la verificación de accesos, hasta el seguimiento de asistencia del personal, el registro de pagos y la comunicación directa con el cliente desde la nube.",
-        "Como Ingeniero de Software con más de 5 años de experiencia, combino visión de producto, arquitectura de sistemas y desarrollo Full Stack para construir soluciones digitales escalables, seguras y orientadas a resolver problemas reales de administración.",
-        "Apasionado por el Clean Code, las arquitecturas robustas y la creación de tecnología que transforma la gestión empresarial.",
+        "Founder & CEO en EntityX | Software Engineer & Full Stack Developer",
+        "Como Ingeniero de Sistemas con más de 5 años de experiencia, me especializo en el desarrollo Full Stack y el diseño de arquitecturas de software escalables, robustas y seguras. A lo largo de mi trayectoria he liderado e implementado soluciones web complejas, integrando tecnologías clave en el ecosistema de Angular, NestJS, Yii2 y Laravel, así como integraciones avanzadas de geolocalización y APIs de terceros. Mi enfoque combina principios de Clean Code, buenas prácticas de desarrollo y una fuerte visión de producto para resolver problemas reales de negocio de principio a fin.",
+        "Esta experiencia técnica y estratégica me llevó a crear EntityX, una plataforma SaaS y ERP orientada a la digitalización de negocios basados en membresías y suscripciones (gimnasios, centros deportivos y academias). Como fundador y arquitecto principal, impulsé una solución integral en la nube que automatiza el control de accesos, el registro de ingresos, la gestión operativa y la comunicación directa con los clientes.",
+        "Me apasiona construir tecnología de alto impacto, transformar procesos complejos en experiencias fluidas y colaborar en proyectos desafiantes que demanden innovación, rendimiento y arquitectura de primer nivel.",
       ],
       highlights: [
-        "Founder y CEO",
+        "Founder & CEO",
         "EntityX",
         "Software Engineer",
         "Full Stack Developer",
-        "ERP",
-        "plataforma SaaS",
-        "gestión operativa y financiera",
-        "control de ingresos",
-        "verificación de accesos",
-        "nube",
-        "Ingeniero de Software",
+        "Ingeniero de Sistemas",
         "más de 5 años de experiencia",
-        "arquitectura de sistemas",
         "desarrollo Full Stack",
-        "soluciones digitales escalables",
+        "arquitecturas de software escalables, robustas y seguras",
+        "Angular",
+        "NestJS",
+        "Yii2",
+        "Laravel",
+        "geolocalización",
+        "APIs de terceros",
         "Clean Code",
-        "arquitecturas robustas",
-        "transforma la gestión empresarial",
+        "buenas prácticas de desarrollo",
+        "visión de producto",
+        "plataforma SaaS y ERP",
+        "digitalización de negocios",
+        "fundador y arquitecto principal",
+        "solución integral en la nube",
+        "control de accesos",
+        "registro de ingresos",
+        "tecnología de alto impacto",
+        "arquitectura de primer nivel",
       ],
     },
     experience: [
@@ -128,14 +134,15 @@ export const translations = {
         duration: "3 años",
         location: "La Paz, Bolivia · En remoto",
         highlights: [
-          "Desarrollador Fullstack (Angular / NestJS) con amplia experiencia en aplicaciones web interactivas, integración de mapas/GPS (Google Maps API) y comunicación cliente-servidor con módulos en Flutter. Especialista en el diseño de arquitectura backend sólida utilizando NestJS y Yii2 para proyectos clave como REMBIZ y REMID, garantizando soluciones escalables tanto en frontend como en backend.",
+          "Desarrollador Fullstack (Angular / NestJS) enfocado en el desarrollo de aplicaciones web interactivas y arquitecturas escalables. Experiencia en la construcción e integración de backends con NestJS, Yii2 y Laravel para proyectos clave como REMBIZ y REMID (incluyendo la integración de diversos proyectos web dentro de REMID). Trabajo tambien con sistemas de geolocalización y mapas, implementando Google Maps API, Leaflet y ArcGIS Online, además de la comunicación cliente-servidor y la integración de servicios web.",
         ],
         tech: [
           "Angular",
           "NestJS",
           "Google Maps API",
-          "Flutter",
+          "Laravel",
           "Yii2",
+          "REST API",
           "Diseño web adaptable",
           "GitHub",
           "REMBIZ",
@@ -206,47 +213,101 @@ Permite a los negocios digitalizar su administración, evitar fugas de dinero y 
       },
       {
         title:
-          "Aplicación Administrativa de la comunidad de caña de azúcar de Belice",
+          "Panel Administrativo del Ecosistema BSI & Comunidad Azucarera de Belice",
         image: "/img/projects/administracion.png",
         url: "https://remcommunityadmin-x.wdi.net/",
-        description:
-          "Sistema administrativo para centralizar la informacion de usuarios, miembros, agrupaciones y datos operativos de la comunidad azucarera de Belice. Incluye modulos de configuracion para aplicaciones complementarias, gestion de actividades de granjeros y conductores, ubicaciones de fabricas, carga de archivos GEOJSON y envio de notificaciones push hacia la aplicacion movil.",
-        tech: ["Angular", "Sass", "Google Maps", "JavaScript"],
+        description: `Plataforma central de administración para el ecosistema digital de Belize Sugar Industries Limited (BSI) y su red agrícola y financiera en Belice. Actúa como el núcleo operativo para gestionar y configurar múltiples plataformas conectadas, incluyendo Community Sugar Cane PWA, Microcredits, WalletOn y Marketplace.
+
+Su alcance funcional y técnico incluye:
+• Gestión de Ecosistema & Usuarios: Control centralizado de granjeros, conductores, agrupaciones, fábricas y configuraciones globales para las aplicaciones móviles y web.
+• Fintech & Blockchain: Gestión de solicitudes de créditos y microcréditos en integración con instituciones financieras de Belice, junto con el monitoreo de transacciones de tokens en blockchain.
+• Geolocalización & GIS Avanzado: Integración de cartografía interactiva mediante ArcGIS y Google Maps API para la carga de capas cartográficas (GeoJSON), ubicación de fábricas y trazabilidad agrícola.
+• Comunicación en Tiempo Real: Motor de envío de notificaciones push segmentadas hacia todo el ecosistema de aplicaciones móviles.`,
+        tech: [
+          "Angular",
+          "Sass",
+          "ArcGIS",
+          "Google Maps API",
+          "Blockchain",
+          "JavaScript",
+        ],
         status: "Privado",
-        type: "Frontend",
+        type: "Full Stack",
       },
       {
-        title:
-          "PWA Para gestionar información y actividades de los trabajadores de la comunidad azucarera de Belice",
+        title: "Community Sugar Cane PWA - Portal Operativo y Financiero BSI",
         image: "/img/projects/pwacom.png",
         url: "https://play.google.com/store/apps/details?id=com.wdtwalleton.rem",
-        description:
-          "PWA integrada dentro de la aplicacion movil REMID mediante WebView, disponible desde la seccion de Iniciativas. Permite gestionar informacion y actividades de trabajadores de la comunidad azucarera de Belice, ofreciendo una experiencia rapida y consistente tanto en navegador como dentro de la app movil, sin requerir instalaciones adicionales.",
-        tech: ["Angular", "Sass", "Google Maps", "JavaScript", "PWA"],
+        description: `Portal progresivo multi-rol (PWA) que conecta a todos los actores clave de la cadena de suministro de Belize Sugar Industries Limited (BSI). Integrado de forma nativa en la app móvil REMID mediante WebView, funciona como el punto de acceso centralizado para granjeros, grupos de cosecha (harvestings), conductores, entidades financieras y diversos roles estratégicos del sector azucarero en Belice.
+
+La arquitectura del sistema adapta dinámicamente las funcionalidades, herramientas y la información visible según el perfil y nivel de acceso de cada usuario conectado. Mientras que los agricultores y grupos de cosecha gestionan su producción y logística en campo, los conductores trazan y reportan las entregas de caña a las fábricas, y las instituciones financieras validan datos clave para la tramitación de microcréditos agrícolas, los demás roles especializados del ecosistema acceden igualmente a herramientas operativas y paneles personalizados para desempeñar su labor en la cadena productiva.`,
+        tech: [
+          "Angular",
+          "Sass",
+          "PWA",
+          "WebView",
+          "Google Maps API",
+          "JavaScript",
+        ],
+        status: "Privado",
+        type: "Full Stack",
+      },
+      {
+        title: "Microcredit BSI - Billetera Móvil & PWA Financiera",
+        image: "/img/projects/microcredit.png",
+        url: "https://play.google.com/store/apps/details?id=com.wdtwalleton.rem",
+        description: `Aplicación web progresiva (PWA) financiera vinculada directamente al Panel Administrativo del Ecosistema BSI y embebida en la app móvil REMID mediante arquitectura WebView. Opera como una billetera digital interactiva diseñada para la gestión financiera y el control transaccional dentro de la comunidad azucarera de Belice.
+
+Su arquitectura multi-rol permite a los usuarios monitorear en tiempo real su balance, historial de transacciones y estado de cuenta detallado. Dependiendo del perfil conectado, habilita capacidades personalizadas para realizar cobros y pagos, o ejecutar pagos operativos directos. Al momento de pagar, el sistema ofrece flexibilidad financiera dual: utilizar el balance disponible en la billetera o solicitar un microcrédito agrícola inmediato, garantizando trazabilidad total y transparencia en cada movimiento.`,
+        tech: ["Angular", "Sass", "PWA", "WebView", "Fintech", "JavaScript"],
         status: "Privado",
         type: "Frontend",
       },
       {
-        title: "Colaboración en aplicación KYC embebida en WebView",
-        image: "/img/projects/kyc.jpeg",
+        title: "WalletOn BSI - PWA de Solicitud de Préstamos & Subvenciones",
+        image: "/img/projects/walleton.png",
         url: "https://play.google.com/store/apps/details?id=com.wdtwalleton.rem",
-        description:
-          "Colabore en el desarrollo de una aplicacion web KYC embebible para verificacion digital de identidad dentro de REMID y otras plataformas. La solucion permite capturar informacion personal y documentos oficiales de forma segura, con una experiencia PWA fluida en entornos moviles y procesos orientados a seguridad, usabilidad y confiabilidad.",
-        tech: ["Angular", "Sass", "JavaScript", "PWA"],
+        description: `Aplicación web progresiva (PWA) de gestión crediticia embebida directamente en la app móvil REMID mediante arquitectura WebView, orientada a la tramitación financiera y el apoyo económico en la comunidad azucarera de Belice.
+
+La plataforma optimiza el proceso de solicitud crediticia ante instituciones financieras del país mediante formularios dinámicos e intuitivos, donde los agricultores y usuarios del ecosistema registran y validan su información de forma estructurada. El sistema ofrece una modalidad dual de financiamiento adaptada a las necesidades operativas del cliente: tramitación de préstamos tradicionales (Loans) con entidades bancarias o postulación a subvenciones y ayudas económicas agrícolas (Grants), impulsando el desarrollo productivo y la inclusión financiera del sector.`,
+        tech: ["Angular", "Sass", "PWA", "WebView", "Fintech", "JavaScript"],
         status: "Privado",
         type: "Frontend",
       },
       {
         title:
-          "Integraciones de servicios backend en la aplicación REMID usando Yii2",
+          "Sistema KYC Fintech - Verificación de Identidad y Seguridad Digital",
+        image: "/img/projects/kyc.jpeg",
+        url: "https://play.google.com/store/apps/details?id=com.wdtwalleton.rem",
+        description: `Solución PWA de verificación digital de identidad (Know Your Customer) embebida estratégicamente dentro de la aplicación móvil REMID y plataformas corporativas asociadas mediante WebView. Diseñada para agilizar el onboarding digital, prevenir el fraude y garantizar el cumplimiento normativo en servicios financieros.
+
+El sistema permite a los usuarios registrar su información personal y cargar documentos oficiales de forma encriptada y segura. Gracias a su arquitectura progresiva y adaptativa, ofrece una experiencia ágil, robusta y con sensación 100% nativa en entornos móviles.`,
+        tech: [
+          "Angular",
+          "Sass",
+          "PWA",
+          "WebView",
+          "Fintech Security",
+          "JavaScript",
+        ],
+        status: "Privado",
+        type: "Frontend",
+      },
+      {
+        title: "Motor Backend & Servicios Core para REMID / REMBIZ (Yii2)",
         image: "/img/projects/remid.jpeg",
         url: "https://play.google.com/store/apps/details?id=com.wdtwalleton.rem",
-        description: `Colaboré en el desarrollo del backend de REMID y REMBIZ utilizando Yii2, implementando servicios robustos para:
-- Integración con la aplicación KYC embebida, permitiendo la verificación de identidad de los usuarios.
-- Gestión de suscripciones y pagos en las iniciativas de REMID.
-- Exposición de APIs seguras para consumo desde la app móvil REMID y la web de REMBIZ.
-Estas integraciones permitieron un flujo eficiente de datos entre aplicaciones web y móviles, garantizando consistencia, seguridad y escalabilidad.`,
-        tech: ["Yii2", "PHP", "REST", "MySQL", "JavaScript"],
+        description: `Colaboración estratégica en el desarrollo y mantenimiento de la arquitectura backend transaccional y el ecosistema de APIs REST para las plataformas corporativas REMID y REMBIZ utilizando el framework Yii2 y PHP.
+
+El trabajo técnico se centró en la creación de nuevos servicios core, el diseño de endpoints robustos y el desarrollo de funcionalidades avanzadas para optimizar la comunicación cliente-servidor con aplicaciones móviles y portales web. Asimismo, se implementaron mejores prácticas en estructuración de datos y optimización de bases de datos MySQL, garantizando flujos de información seguros, escalables y de alta disponibilidad en todo el ecosistema.`,
+        tech: [
+          "Yii2",
+          "PHP",
+          "REST API",
+          "MySQL",
+          "Backend Architecture",
+          "Fintech",
+        ],
         status: "Público",
         type: "Backend",
       },
@@ -320,30 +381,37 @@ Estas integraciones permitieron un flujo eficiente de datos entre aplicaciones w
     },
     about: {
       paragraphs: [
-        "Founder and CEO at EntityX | Software Engineer, Full Stack Developer.",
-        "Founder and lead developer of EntityX, the ERP system and SaaS platform that optimizes operational and financial management for membership and subscription-based businesses, including gyms, academies, sports centers, and service companies.",
-        "We digitize the full business operation: from revenue control and access verification to staff attendance tracking, payment records, and direct customer communication from the cloud.",
-        "As a Software Engineer with more than 5 years of experience, I combine product vision, systems architecture, and Full Stack development to build scalable, secure digital solutions focused on solving real administration problems.",
-        "I am passionate about Clean Code, robust architectures, and creating technology that transforms business management.",
+        "Founder & CEO at EntityX | Software Engineer & Full Stack Developer",
+        "As a Systems Engineer with over 5 years of experience, I specialize in Full Stack development and designing scalable, robust, and secure software architectures. Throughout my career, I have engineered complex web applications using Angular, NestJS, Yii2, and Laravel, along with advanced integrations including geolocation and third-party APIs. My approach combines Clean Code principles, software engineering best practices, and strong product vision to solve real-world business challenges end-to-end.",
+        "This technical and strategic background drove me to create EntityX, a SaaS ERP platform built to digitize membership and subscription-based businesses (gyms, sports centers, and academies). As founder and lead architect, I built a cloud-based solution that automates access control, revenue tracking, operational management, and customer engagement.",
+        "I am passionate about building high-impact technology, streamlining complex workflows into seamless user experiences, and contributing to ambitious projects that require innovation, top performance, and modern architecture.",
       ],
       highlights: [
-        "Founder and CEO",
+        "Founder & CEO",
         "EntityX",
         "Software Engineer",
         "Full Stack Developer",
-        "ERP",
-        "SaaS platform",
-        "operational and financial management",
-        "revenue control",
-        "access verification",
-        "cloud",
-        "more than 5 years of experience",
-        "systems architecture",
+        "Systems Engineer",
+        "over 5 years of experience",
         "Full Stack development",
-        "scalable, secure digital solutions",
-        "Clean Code",
-        "robust architectures",
-        "transforms business management",
+        "scalable, robust, and secure software architectures",
+        "Angular",
+        "NestJS",
+        "Yii2",
+        "Laravel",
+        "geolocation",
+        "third-party APIs",
+        "Clean Code principles",
+        "software engineering best practices",
+        "product vision",
+        "SaaS ERP platform",
+        "digitize membership and subscription-based businesses",
+        "founder and lead architect",
+        "cloud-based solution",
+        "access control",
+        "revenue tracking",
+        "high-impact technology",
+        "modern architecture",
       ],
     },
     experience: [
@@ -373,14 +441,15 @@ Estas integraciones permitieron un flujo eficiente de datos entre aplicaciones w
         duration: "3 years",
         location: "La Paz, Bolivia · Remote",
         highlights: [
-          "Fullstack Developer (Angular / NestJS) with broad experience in interactive web applications, maps/GPS integration (Google Maps API), and client-server communication with Flutter modules. Specialist in designing solid backend architecture using NestJS and Yii2 for key projects such as REMBIZ and REMID, delivering scalable solutions across frontend and backend.",
+          "Fullstack Developer (Angular / NestJS) focused on building interactive web applications and scalable architectures. Experience in constructing and integrating backends with NestJS, Yii2, and Laravel for key projects such as REMBIZ and REMID (including the integration of various web projects within REMID). I also work with geolocation and mapping systems, implementing Google Maps API, Leaflet, and ArcGIS Online, optimizing client-server communication and web service integrations.",
         ],
         tech: [
           "Angular",
           "NestJS",
           "Google Maps API",
-          "Flutter",
+          "Laravel",
           "Yii2",
+          "REST API",
           "Responsive Web Design",
           "GitHub",
           "REMBIZ",
@@ -450,52 +519,110 @@ It helps businesses digitize administration, prevent revenue leakage, and delive
         type: "Full Stack",
       },
       {
-        title: "Administrative application for the Belize sugar cane community",
+        title: "BSI Ecosystem & Belize Sugar Cane Community Admin Panel",
         image: "/img/projects/administracion.png",
         url: "https://remcommunityadmin-x.wdi.net/",
-        description:
-          "Administrative system for centralizing user, member, group, and operational data for the Belize sugar cane community. It includes configuration modules for complementary applications, farmer and driver activity management, factory locations, GEOJSON file uploads, and push notifications delivered through the mobile app.",
-        tech: ["Angular", "Sass", "Google Maps", "JavaScript"],
+        description: `Core management platform powering the digital ecosystem for Belize Sugar Industries Limited (BSI) and its agricultural and financial network in Belize. It serves as the central operational hub to manage and configure multiple connected platforms, including the Community Sugar Cane PWA, Microcredits, WalletOn, and Marketplace.
+
+Its technical and operational scope features:
+• Ecosystem & User Management: Centralized administration of farmers, drivers, harvesting groups, factories, and global configurations across web and mobile apps.
+• Fintech & Blockchain: Management of credit and microcredit applications integrated with Belizean financial institutions, alongside monitoring of blockchain token transactions.
+• Advanced GIS & Mapping: Interactive mapping integration using ArcGIS and Google Maps API for GeoJSON layer processing, factory mapping, and agricultural traceability.
+• Real-Time Communication: Centralized engine for dispatching targeted push notifications across the entire mobile application ecosystem.`,
+        tech: [
+          "Angular",
+          "Sass",
+          "ArcGIS",
+          "Google Maps API",
+          "Blockchain",
+          "JavaScript",
+        ],
         status: "Private",
-        type: "Frontend",
+        type: "Full Stack",
       },
       {
-        title:
-          "PWA for managing information and activities for Belize sugar community workers",
+        title: "Community Sugar Cane PWA - BSI Operational & Financial Portal",
         image: "/img/projects/pwacom.png",
         url: "https://play.google.com/store/apps/details?id=com.wdtwalleton.rem",
-        description:
-          "PWA embedded inside the REMID mobile app through WebView and available from the Initiatives section. It manages information and activities for Belize sugar community workers, delivering a fast and consistent experience in both browser and mobile app contexts without requiring additional installation.",
-        tech: ["Angular", "Sass", "Google Maps", "JavaScript", "PWA"],
+        description: `Progressive multi-role portal (PWA) connecting all key stakeholders across the Belize Sugar Industries Limited (BSI) supply chain. Natively embedded within the REMID mobile app via WebView, it serves as the centralized access point for farmers, harvesting groups, drivers, financial institutions, and various other strategic roles across Belize's sugar sector.
+
+The platform's architecture dynamically tailors available functionalities, tools, and visible data based on the connected user's specific profile and access level. While farmers and harvesting groups manage field production and logistics, drivers track and report sugar cane deliveries to factories, and financial institutions validate essential data for agricultural microloan processing, other specialized roles within the ecosystem likewise access customized operational workspaces and metrics tailored to their responsibilities in the production chain.`,
+        tech: [
+          "Angular",
+          "Sass",
+          "PWA",
+          "WebView",
+          "Google Maps API",
+          "JavaScript",
+        ],
+        status: "Private",
+        type: "Full Stack",
+      },
+      {
+        title: "Microcredit BSI - Mobile Wallet & Financial PWA",
+        image: "/img/projects/microcredit.png",
+        url: "https://play.google.com/store/apps/details?id=com.wdtwalleton.rem",
+        description: `Progressive Web Application (PWA) financial solution directly integrated with the BSI Ecosystem Admin Panel and natively embedded within the REMID mobile app via WebView architecture. It operates as an interactive digital wallet designed for transaction control and financial management across the Belize sugar community.
+
+Its multi-role architecture enables users to monitor their real-time financial balance, account statements, and comprehensive activity history. Depending on the assigned profile, it provides customized capabilities to execute operational collections and payments, or perform direct payments. When completing transactions, the platform offers dual funding flexibility: utilizing available wallet balance or requesting an instant agricultural microloan, ensuring transparency and complete traceability for every movement.`,
+        tech: ["Angular", "Sass", "PWA", "WebView", "Fintech", "JavaScript"],
         status: "Private",
         type: "Frontend",
       },
       {
-        title: "Collaboration on a KYC application embedded in WebView",
+        title: "WalletOn BSI - Agricultural Loans & Grants PWA",
+        image: "/img/projects/walleton.png",
+        url: "https://play.google.com/store/apps/details?id=com.wdtwalleton.rem",
+        description: `Progressive Web Application (PWA) credit management solution natively embedded within the REMID mobile app via WebView architecture, designed to streamline financial applications and economic support across the Belize sugar community.
+
+The platform optimizes the credit application workflow with financial institutions across Belize through dynamic, user-friendly digital forms where farmers and ecosystem members submit and validate structured financial information. The system features a dual funding framework tailored to operational needs: processing standard credit applications (Loans) with banking institutions or applying for agricultural financial aid and non-repayable economic support (Grants), fostering productive development and financial inclusion across the sector.`,
+        tech: ["Angular", "Sass", "PWA", "WebView", "Fintech", "JavaScript"],
+        status: "Private",
+        type: "Frontend",
+      },
+      {
+        title: "Fintech KYC System - Digital Identity Verification & Security",
         image: "/img/projects/kyc.jpeg",
         url: "https://play.google.com/store/apps/details?id=com.wdtwalleton.rem",
-        description:
-          "Collaborated on an embeddable KYC web application for digital identity verification inside REMID and other platforms. The solution securely captures personal information and official documents, with a smooth PWA experience for mobile environments and workflows focused on security, usability, and reliability.",
-        tech: ["Angular", "Sass", "JavaScript", "PWA"],
+        description: `Progressive Web Application (PWA) solution for Know Your Customer (KYC) digital identity verification, strategically embedded within the REMID mobile app and associated corporate platforms via WebView. Designed to streamline digital onboarding, prevent fraud, and ensure regulatory compliance across financial services.
+
+The system enables users to securely submit personal information and upload official identification documents with robust encryption. Built on a progressive and adaptive architecture, it delivers a fast, secure, and 100% native-feeling experience across mobile environments.`,
+        tech: [
+          "Angular",
+          "Sass",
+          "PWA",
+          "WebView",
+          "Fintech Security",
+          "JavaScript",
+        ],
         status: "Private",
         type: "Frontend",
       },
       {
-        title: "Backend service integrations in the REMID application using Yii2",
+        title: "Core Backend Engine & API Services for REMID / REMBIZ (Yii2)",
         image: "/img/projects/remid.jpeg",
         url: "https://play.google.com/store/apps/details?id=com.wdtwalleton.rem",
-        description: `Collaborated on REMID and REMBIZ backend development using Yii2, implementing robust services for:
-- Integration with the embedded KYC application, enabling user identity verification.
-- Subscription and payment management for REMID initiatives.
-- Secure API exposure for consumption from the REMID mobile app and REMBIZ web platform.
-These integrations enabled efficient data flow between web and mobile applications while ensuring consistency, security, and scalability.`,
-        tech: ["Yii2", "PHP", "REST", "MySQL", "JavaScript"],
+        description: `Strategic collaboration on the development and maintenance of the transactional backend architecture and REST API ecosystem powering the REMID and REMBIZ corporate platforms using Yii2 and PHP.
+
+The technical scope focused on engineering new core backend services, designing secure RESTful endpoints, and developing advanced functionalities to connect mobile applications and web portals seamlessly. Additionally, it involved implementing best practices in data structuring and MySQL database optimization to ensure high performance, scalability, and reliable client-server communication across the entire ecosystem.`,
+        tech: [
+          "Yii2",
+          "PHP",
+          "REST API",
+          "MySQL",
+          "Backend Architecture",
+          "Fintech",
+        ],
         status: "Public",
         type: "Backend",
       },
     ],
     stack: {
-      categories: ["Frontend Technologies", "Backend Technologies", "Tools and DevOps"],
+      categories: [
+        "Frontend Technologies",
+        "Backend Technologies",
+        "Tools and DevOps",
+      ],
     },
     certificationsPage: {
       title: "Continuous Learning & Certifications",
@@ -532,7 +659,9 @@ const LanguageContext = createContext<LanguageContextValue | null>(null);
 function getInitialLanguage(): Language {
   if (typeof window === "undefined") return "es";
   const storedLanguage = window.localStorage.getItem(STORAGE_KEY);
-  return storedLanguage === "en" || storedLanguage === "es" ? storedLanguage : "es";
+  return storedLanguage === "en" || storedLanguage === "es"
+    ? storedLanguage
+    : "es";
 }
 
 export function LanguageProvider({ children }: PropsWithChildren) {
