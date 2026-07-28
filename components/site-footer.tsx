@@ -55,7 +55,7 @@ export function SiteFooter() {
       </div>
 
       <p>
-        {new Date().getFullYear()} Aaron Fabricio Santa Cruz (FullStack
+        {new Date().getFullYear()} Aaron Fabricio Santa Cruz Valdez (FullStack
         Developer). {t.actions.builtWith}
       </p>
     </footer>

@@ -9,7 +9,7 @@ const structuredData = {
     {
       "@type": "Person",
       "@id": personId,
-      name: "Aaron Fabricio Santa Cruz",
+      name: "Aaron Fabricio Santa Cruz Valdez",
       url: SITE_URL,
       image: `${SITE_URL}/img/imgoptimizadas/aaron-avatar-comic.png`,
       jobTitle: [
@@ -56,11 +56,11 @@ const structuredData = {
     {
       "@type": "WebSite",
       "@id": websiteId,
-      name: "Aaron Code Next",
+      name: "Aaron Fabricio Santa Cruz Valdez",
       url: SITE_URL,
       inLanguage: ["es", "en"],
       description:
-        "Portafolio de Aaron Fabricio Santa Cruz, Software Engineer, Full Stack Developer y Founder de EntityX.",
+        "Portafolio de Aaron Fabricio Santa Cruz Valdez, Software Engineer, Full Stack Developer y Founder de EntityX.",
       publisher: {
         "@id": personId,
       },
@@ -69,9 +69,9 @@ const structuredData = {
       "@type": "ProfilePage",
       "@id": `${SITE_URL}/#profile-page`,
       url: SITE_URL,
-      name: "Portafolio de Aaron Fabricio Santa Cruz",
+      name: "Portafolio de Aaron Fabricio Santa Cruz Valdez",
       description:
-        "Experiencia, proyectos, stack tecnico y certificaciones de Aaron Fabricio Santa Cruz.",
+        "Experiencia, proyectos, stack tecnico y certificaciones de Aaron Fabricio Santa Cruz Valdez.",
       inLanguage: "es",
       mainEntity: {
         "@id": personId,
@@ -83,7 +83,7 @@ const structuredData = {
     {
       "@type": "ItemList",
       "@id": `${SITE_URL}/#projects`,
-      name: "Proyectos destacados de Aaron Fabricio Santa Cruz",
+      name: "Proyectos destacados de Aaron Fabricio Santa Cruz Valdez",
       itemListElement: [
         {
           "@type": "ListItem",
@@ -178,4 +178,3 @@ export function SeoJsonLd() {
     />
   );
 }
-

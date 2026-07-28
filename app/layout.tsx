@@ -20,9 +20,8 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
-  title: "Portafolio | Aaron Code Next",
   description:
-    "Portafolio de una sola página con secciones claras, construido en Next.js.",
+    "Portafolio de Aaron Fabricio Santa Cruz Valdez, Software Engineer, Full Stack Developer y Founder de EntityX.",
   verification: {
     google: "QJl_7FaJkMWxCZgyhHJRMb8tXEvH5_XIf8yelDFcJa0",
   },

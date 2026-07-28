@@ -7,19 +7,20 @@ import { HeroSection } from "@/components/sections/hero-section";
 import { ProjectsSection } from "@/components/sections/projects-section";
 import { StackSection } from "@/components/sections/stack-section";
 import { SeoJsonLd } from "@/components/seo-json-ld";
+import { SITE_TITLE } from "@/lib/site";
 
-const title =
-  "Aaron Fabricio Santa Cruz | Full Stack Developer & Founder EntityX";
+const title = SITE_TITLE;
 const description =
-  "Portafolio de Aaron Fabricio Santa Cruz, Software Engineer, Full Stack Developer y Founder de EntityX, especializado en plataformas SaaS, ERP, Angular, NestJS, Next.js y soluciones digitales para negocios.";
+  "Portafolio de Aaron Fabricio Santa Cruz Valdez, Software Engineer, Full Stack Developer y Founder de EntityX, especializado en plataformas SaaS, ERP, Angular, NestJS, Next.js y soluciones digitales para negocios.";
 const previewImage = "/img/Add_background_to_image_202607261128.jpeg";
 
 export const metadata: Metadata = {
   title,
   description,
   keywords: [
-    "Aaron Fabricio Santa Cruz",
-    "Aaron Code Next",
+    "Aaron Fabricio Santa Cruz Valdez",
+    "Aaron Santa Cruz Valdez",
+    "Aaron Valdez",
     "Full Stack Developer",
     "Software Engineer",
     "Systems Engineer",
@@ -69,13 +70,13 @@ export const metadata: Metadata = {
     locale: "es_ES",
     alternateLocale: ["en_US"],
     url: "/",
-    siteName: "Aaron Code Next",
+    siteName: "Aaron Fabricio Santa Cruz Valdez",
     images: [
       {
         url: previewImage,
         width: 1200,
         height: 896,
-        alt: "Preview del portafolio de Aaron Fabricio Santa Cruz, Full Stack Developer y Founder de EntityX",
+        alt: "Preview del portafolio de Aaron Fabricio Santa Cruz Valdez, Full Stack Developer y Founder de EntityX",
       },
     ],
   },

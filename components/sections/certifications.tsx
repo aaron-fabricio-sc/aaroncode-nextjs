@@ -145,7 +145,7 @@ export function CertificationsSection() {
               <Image
                 className="certification-image"
                 src={cert.image}
-                alt={`Certificado de ${title} obtenido por Aaron Fabricio Santa Cruz`}
+                alt={`Certificado de ${title} obtenido por Aaron Fabricio Santa Cruz Valdez`}
                 width={1650}
                 height={1275}
                 sizes="(max-width: 768px) 90vw, (max-width: 1200px) 42vw, 360px"

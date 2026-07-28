@@ -56,7 +56,7 @@ export const translations = {
       backHome: "Volver al Inicio",
     },
     hero: {
-      title: "Aaron Fabricio Santa Cruz",
+      title: "Aaron Fabricio Santa Cruz Valdez",
       subtitle:
         "Founder & CEO en EntityX | Ingeniero de Sistemas & Full Stack Developer, transformando la gestión de negocios con soluciones digitales.",
       lead: "Diseño y desarrollo plataformas web, aplicaciones a medida y soluciones digitales orientadas a optimizar procesos y escalar negocios.",
@@ -363,7 +363,7 @@ El trabajo técnico se centró en la creación de nuevos servicios core, el dise
       backHome: "Back Home",
     },
     hero: {
-      title: "Aaron Fabricio Santa Cruz",
+      title: "Aaron Fabricio Santa Cruz Valdez",
       subtitle:
         "Founder & CEO at EntityX | Systems Engineer & Full Stack Developer, transforming business management through digital solutions.",
       lead: "I design and build web platforms, custom applications, and digital solutions focused on optimizing processes and scaling businesses.",
