@@ -58,7 +58,7 @@ export const translations = {
     hero: {
       title: "Aaron Fabricio Santa Cruz Valdez",
       subtitle:
-        "Founder & CEO en EntityX | Ingeniero de Sistemas & Full Stack Developer, transformando la gestión de negocios con soluciones digitales.",
+        "Founder & Lead Developer en EntityX | Ingeniero de Sistemas & Full Stack Developer, transformando la gestión de negocios con soluciones digitales.",
       lead: "Diseño y desarrollo plataformas web, aplicaciones a medida y soluciones digitales orientadas a optimizar procesos y escalar negocios.",
       downloadCv: "Descargar CV",
       contactMe: "Contáctame",
@@ -74,13 +74,13 @@ export const translations = {
     },
     about: {
       paragraphs: [
-        "Founder & CEO en EntityX | Software Engineer & Full Stack Developer",
+        "Founder & Lead Developer en EntityX | Software Engineer & Full Stack Developer",
         "Como Ingeniero de Sistemas con más de 5 años de experiencia, me especializo en el desarrollo Full Stack y el diseño de arquitecturas de software escalables, robustas y seguras. A lo largo de mi trayectoria he liderado e implementado soluciones web complejas, integrando tecnologías clave en el ecosistema de Angular, NestJS, Yii2 y Laravel, así como integraciones avanzadas de geolocalización y APIs de terceros. Mi enfoque combina principios de Clean Code, buenas prácticas de desarrollo y una fuerte visión de producto para resolver problemas reales de negocio de principio a fin.",
         "Esta experiencia técnica y estratégica me llevó a crear EntityX, una plataforma SaaS y ERP orientada a la digitalización de negocios basados en membresías y suscripciones (gimnasios, centros deportivos y academias). Como fundador y arquitecto principal, impulsé una solución integral en la nube que automatiza el control de accesos, el registro de ingresos, la gestión operativa y la comunicación directa con los clientes.",
         "Me apasiona construir tecnología de alto impacto, transformar procesos complejos en experiencias fluidas y colaborar en proyectos desafiantes que demanden innovación, rendimiento y arquitectura de primer nivel.",
       ],
       highlights: [
-        "Founder & CEO",
+        "Founder & Lead Developer",
         "EntityX",
         "Software Engineer",
         "Full Stack Developer",
@@ -110,7 +110,7 @@ export const translations = {
     experience: [
       {
         company: "EntityX",
-        role: "CEO-FOUNDER",
+        role: "Founder & Lead Developer",
         employmentType: "Autónomo",
         timeframe: "ene. 2026 - actualidad",
         duration: "7 meses",
@@ -365,7 +365,7 @@ El trabajo técnico se centró en la creación de nuevos servicios core, el dise
     hero: {
       title: "Aaron Fabricio Santa Cruz Valdez",
       subtitle:
-        "Founder & CEO at EntityX | Systems Engineer & Full Stack Developer, transforming business management through digital solutions.",
+        "Founder & Lead Developer at EntityX | Systems Engineer & Full Stack Developer, transforming business management through digital solutions.",
       lead: "I design and build web platforms, custom applications, and digital solutions focused on optimizing processes and scaling businesses.",
       downloadCv: "Download CV",
       contactMe: "Contact me",
@@ -381,13 +381,13 @@ El trabajo técnico se centró en la creación de nuevos servicios core, el dise
     },
     about: {
       paragraphs: [
-        "Founder & CEO at EntityX | Software Engineer & Full Stack Developer",
+        "Founder & Lead Developer at EntityX | Software Engineer & Full Stack Developer",
         "As a Systems Engineer with over 5 years of experience, I specialize in Full Stack development and designing scalable, robust, and secure software architectures. Throughout my career, I have engineered complex web applications using Angular, NestJS, Yii2, and Laravel, along with advanced integrations including geolocation and third-party APIs. My approach combines Clean Code principles, software engineering best practices, and strong product vision to solve real-world business challenges end-to-end.",
         "This technical and strategic background drove me to create EntityX, a SaaS ERP platform built to digitize membership and subscription-based businesses (gyms, sports centers, and academies). As founder and lead architect, I built a cloud-based solution that automates access control, revenue tracking, operational management, and customer engagement.",
         "I am passionate about building high-impact technology, streamlining complex workflows into seamless user experiences, and contributing to ambitious projects that require innovation, top performance, and modern architecture.",
       ],
       highlights: [
-        "Founder & CEO",
+        "Founder & Lead Developer",
         "EntityX",
         "Software Engineer",
         "Full Stack Developer",
@@ -417,7 +417,7 @@ El trabajo técnico se centró en la creación de nuevos servicios core, el dise
     experience: [
       {
         company: "EntityX",
-        role: "CEO-FOUNDER",
+        role: "Founder & Lead Developer",
         employmentType: "Self-employed",
         timeframe: "Jan. 2026 - Present",
         duration: "7 months",
