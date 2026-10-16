@@ -116,7 +116,7 @@ export const translations = {
         duration: "7 meses",
         location: "Bolivia · Híbrido",
         highlights: [
-          "Como fundador de EntityX, lidero la visión estratégica y el desarrollo técnico de una plataforma SaaS diseñada para transformar la gestión operativa y financiera de centros deportivos, academias y negocios basados en membresías. Mi enfoque es eliminar las ineficiencias de la gestión tradicional mediante una solución integral en la nube que automatiza el control de accesos, simplifica el registro de ingresos y optimiza la comunicación directa con los clientes.",
+          "Como fundador de EntityX, lidero la estrategia y el desarrollo técnico de un ERP operativo ligero en la nube, diseñado para pequeñas y medianas empresas. EntityX reúne en una sola plataforma las herramientas necesarias para administrar la operación diaria: clientes, ventas, cobros, productos, inventario por sucursal, servicios, actividades, personal, accesos y reportes. La plataforma ayuda a los negocios a ordenar su información, registrar cada movimiento con claridad y tomar decisiones basadas en datos. Mi objetivo es ofrecer una solución accesible y completa para que empresas de servicios, academias, gimnasios, centros de bienestar, clubes e institutos puedan gestionar su crecimiento sin depender de procesos manuales o herramientas desconectadas.",
         ],
         tech: [
           "Desarrollo Full Stack",
@@ -423,7 +423,7 @@ El trabajo técnico se centró en la creación de nuevos servicios core, el dise
         duration: "7 months",
         location: "Bolivia · Hybrid",
         highlights: [
-          "As founder of EntityX, I lead the strategic vision and technical development of a SaaS platform designed to transform operational and financial management for sports centers, academies, and membership-based businesses. My focus is to remove the inefficiencies of traditional management through a cloud-based solution that automates access control, simplifies revenue tracking, and improves direct communication with customers.",
+          "As the founder of EntityX, I lead the strategy and technical development of a lightweight cloud based operational ERP designed for small and medium sized businesses. EntityX brings together the tools needed to manage daily operations in one platform: customers, sales, payments, products, branch level inventory, services, activities, staff, access control, and reports. The platform helps businesses organize their information, record every transaction clearly, and make data driven decisions. My goal is to provide an accessible and complete solution for service businesses, academies, gyms, wellness centers, clubs, and educational institutes to manage their growth without relying on manual processes or disconnected tools.",
         ],
         tech: [
           "Full Stack Development",
